@@ -221,8 +221,8 @@ body, html {
   height: auto;
   width: 80%;
   margin-bottom: 3rem;
-  
 }
+
 .landing .landing-img img {
   height: 100%;
   width: 100%;
@@ -832,6 +832,8 @@ body, html {
 
 
 
+/*############################################################################################################*/
+/*Externe Pages*/
 
 /* Impressum / Datenschutz */
 .impressum-datenschutz-container {
@@ -848,5 +850,116 @@ body, html {
   letter-spacing: .1rem;
   color: lightgrey;
 }
-
 /* END Impressum */
+
+/* Explain Section */
+.story {
+  min-height: 80vh;
+  width: 100%;
+  padding-top: 10rem;
+  justify-content: center;
+  background-color: #111;
+	display: flex;
+	flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.story .story-img {
+	height: auto;
+  width: 80%;
+	margin-bottom: 3rem;
+	margin-top: 5rem;
+	margin-left: 50px;
+	min-width: 300px;
+	max-width: 600px;
+}
+
+.story .story-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.story .story-info {
+  width: 80%;
+  text-align: block;
+}
+
+.story .story-info .story-info-heading {
+  font-size: 5rem;
+  font-weight: 300;
+	color: lightgrey;
+	transition: 1s ease all;
+}
+
+.story .story-info .story-info-text {
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+}
+
+.story .story-info .story-info-text-mini {
+  font-size: 1.0rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+}
+
+.story .story-info ul {
+	text-align: block;
+	font-size: 1.6rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+	list-style-type: square;
+  list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+/* END Explain Section */
+
+/* Company Section */
+.company {
+  min-height: 80vh;
+  width: 100%;
+  padding-top: 10rem;
+  justify-content: center;
+	display: flex;
+	flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.company .company-info {
+  width: 80%;
+  text-align: block;
+}
+
+.company .company-info .company-info-heading {
+  font-size: 5rem;
+  font-weight: 300;
+	color: lightgrey;
+	transition: 1s ease all;
+}
+
+.company .company-info .company-info-text {
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+}
+
+.company .company-info .company-info-text-mini {
+  font-size: 1.0rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+}
+
+.company .company-info ul {
+	text-align: block;
+	font-size: 1.6rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+	list-style-type: square;
+  list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+/* END Company Section */
