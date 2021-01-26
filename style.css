@@ -461,6 +461,7 @@ body, html {
 .review-container .heading {
 	font-size: 60px;
 	color: white;
+	text-align: center;
 }
 
 .review-container .heading span {
