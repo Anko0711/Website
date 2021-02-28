@@ -21,12 +21,12 @@ window.addEventListener("DOMContentLoaded", function() {
   function success() {
     form.reset();
     status.classList.add('success');
-    status.innerHTML = "Thanks!";
+    status.innerHTML = "Danke!";
   }
 
   function error() {
     status.classList.add('error');
-    status.innerHTML = "Oops! There was a problem.";
+    status.innerHTML = "Ups! Das hat nicht geklappt!";
   }
 
   // handle the form submission event

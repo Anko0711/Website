@@ -6,6 +6,10 @@
     <title>Personal Training Anko</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- END Favicon -->
   </head>
   <body>
 <!-- Navigation Bar -->
@@ -95,11 +99,11 @@
     <h2 class="contact-data">Mail: ankomarkus@gmail.com</h2>
     <form action="https://formspree.io/f/xzbkooqn" method="POST" id="my-form">
       <div class="form-group">
-        <input type="text" id="firstName" name="firstName" placeholder="Vorname">
+        <input type="text" id="firstName" name="firstName" placeholder="Vorname" required>
       </div>
 
       <div class="form-group">
-        <input type="text" id="lastName" name="lastName" placeholder="Nachname">
+        <input type="text" id="lastName" name="lastName" placeholder="Nachname" required>
       </div>
 
       <div class="form-group">
@@ -107,11 +111,11 @@
       </div>
 
       <div class="form-group">
-        <input type="text" id="number" name="number" placeholder="Telefonnummer">
+        <input type="text" id="number" name="number" placeholder="Telefonnummer" required>
       </div>
 
       <div class="form-group">
-        <textarea id="message" name="message" cols="30" rows="10" placeholder="Nachricht an Markus"></textarea>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Nachricht an Markus" required></textarea>
       </div>
 
       <button class="contact-button" type="submit">Senden</button>
