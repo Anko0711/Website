@@ -927,13 +927,14 @@ body, html {
 }
 
 .story .story-img {
+	float: left;
+	margin: 0 20px 10px 0;
+	width: 300px;
 	height: auto;
-  width: 80%;
-	margin-bottom: 3rem;
-	margin-top: 5rem;
-	margin-left: 50px;
-	min-width: 300px;
-	max-width: 600px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,0.1);
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .story .story-img img {
@@ -943,7 +944,7 @@ body, html {
 
 .story .story-info {
   width: 80%;
-  text-align: block;
+  text-align: justify;
 }
 
 .story .story-info .story-info-heading {
