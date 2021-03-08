@@ -167,7 +167,6 @@ body, html {
   min-height: 80vh;
   width: 100%;
   padding-top: 10rem;
-  justify-content: center;
   background-color: #222;
   display: flex;
   flex-direction: column-reverse;
@@ -329,6 +328,39 @@ body, html {
 	font-size: 4rem;
 }
 /* END Explain Section */
+
+/* Sale Section */
+.sale-container {
+	min-height: 60px;
+	background-color: #666;
+	padding: 10px;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	
+}
+
+.sale-text {
+	margin: 10px;;
+	text-align: center;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3), 0px -1px 1px rgba(0,0,0,.4);
+	color: #333;
+	font-weight: 800;
+}
+
+.countdown {
+	margin: 10px;
+	width: 19rem;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3), 0px -1px 1px rgba(0,0,0,.4);
+	color: #333;
+	font-weight: 800;
+}
+/* END Sale Section */
 
 /* Contact Section */
 .contact {
@@ -797,6 +829,7 @@ body, html {
 	.service-info-heading {
     font-size: 6rem;
 	}
+
 }
 /* END Media Query for Desktop ONLY */
 
